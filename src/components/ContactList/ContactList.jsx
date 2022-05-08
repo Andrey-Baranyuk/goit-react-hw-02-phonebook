@@ -8,7 +8,7 @@ export default function ContactList({ contacts, onDelete }) {
         <li key={e.id}>
           <p className={styles.posBtn}>
             <span className={styles.text}>
-              {e.mane}: {e.number}
+              {e.name}: {e.number}
             </span>
 
             <button
